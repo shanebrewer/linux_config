@@ -1,0 +1,7 @@
+alias ls='ls -G'
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -lAg'
+alias ..='..'
+alias ...='../..'
+alias ....='../../..'
