@@ -1,7 +1,13 @@
-# pick ONE from below:
+# editor
 export EDITOR='code'      # Visual Studio Code
 # export EDITOR='nano'    # nano
 # export EDITOR='nvim'    # neovim
+
+# bookmarks
+alias @tmp='cd ~/tmp'
+alias @downloads='cd ~/Downloads'
+alias @src='cd ~/src'
+alias @repo='cd ~/repos'
 
 # editing configs
 alias ez='$EDITOR ~/.zshrc'       # alias for Edit Zshrc
@@ -17,16 +23,11 @@ alias l-'ls -lAg'
 alias -g ..='..'          # move up by one directory
 alias -g ...='../..'      # move up by two directories
 alias -g ....='../../..'  # move up by three directories
-
-# bookmarks
-alias @tmp='cd ~/tmp'
-alias @downloads='cd ~/Downloads'
-alias @src='cd ~/src'
-alias @repo='cd ~/repos'
+alias -g .....='../../../..'
 
 # you can open urls too
-alias @devtips='open "http://go/devtips"'
-alias @tunes='open "https://di.fm"'
+# alias @tunes='open "https://di.fm"'
+alias @tunes='open "https://open.spotify.com/"'
 
 # create and delete files/folders
 alias t='touch'           # create file
@@ -39,14 +40,6 @@ alias c='clear'           # clear terminal
 alias o='open'            # open file or chrome with full url
 alias myip="ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'"   # show my ip
 alias pingg='ping www.google.com'    # See network speed against google.com
-
-# fuzzyhub
-alias fco='fuzzyhub checkout'        # checkout a branch. Specifying branch name will use git checkout instead.
-alias far='fuzzyhub add-remote'      # add git remote
-alias fsm='fuzzyhub sync-master'     # sync local, origin and upstream master
-alias fpr='fuzzyhub view-pr'         # view pull request(s) on github
-alias fm='fuzzyhub view-master'      # view master on github. ctrl-t to specify file(s)
-alias fl='fuzzyhub view-local'       # view local branch on github. ctrl-t to specify file(s)
 
 # git
 alias g='git'
