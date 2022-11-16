@@ -1,5 +1,3 @@
-source $(brew --prefix cb-zsh)/config.zsh # load cb-zsh
-source $(brew --prefix fuzzyhub)/fuzzyhub.zsh # load fuzzyhub
 source $HOME/.alias.zsh # load aliases
 source $HOME/.local.zsh # load environment variables and secret keys
 
