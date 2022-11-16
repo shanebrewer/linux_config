@@ -61,8 +61,3 @@ alias gr='git remote -v'
 alias grb='git rebase'
 alias gs='git status -sb'
 alias gu='git unadd'                 # git config --global alias.unadd reset HEAD
-
-# cb-zsh git-scripts
-alias gp='_git_push_auto_branch'     # git push to origin on current branch if no argument specified. Otherwise, git push to specified remote.
-alias glc='_git_commit_diff'         # show commit diff against upstream/master. Use origin if upstream doesn't exist
-alias glcc='_git_commit_all'         # show all commits
